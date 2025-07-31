@@ -1,106 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harbol ADV</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hárbol Audiovisual</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Hero Section -->
-    <header class="hero">
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/d7g5ECAoviY?autoplay=1&mute=1&loop=1&playlist=d7g5ECAoviY&controls=0" 
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<body>/
+  <header class="hero">
+    <div class="video-background">
+      <iframe src="https://youtu.be/uXX6NH7WTkI?si=3CkgiUJUYABIPjpk" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="container text-center hero-content">
-        <h1 class="display-4">Crea Historias que Inspiran</h1>
-        <p class="lead">Producción audiovisual profesional para tu marca</p>
-        <a href="#contacto" class="btn btn-primary btn-lg">Contáctanos</a>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Historias que Inspiran</h1>
+      <p>Productora audiovisual especializada en cursos virtuales, reportajes sociales y eventos</p>
+      <a href="#contacto" class="btn-cta">Contáctanos</a>
     </div>
-</header>
+  </header>
 
-    <!-- Servicios -->
-    <section id="servicios" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Nuestros Servicios</h2>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <h3>Producción Audiovisual</h3>
-                    <p>Videos corporativos, publicitarios y más.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Animación 2D/3D</h3>
-                    <p>Animaciones que capturan la atención.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Fotografía</h3>
-                    <p>Imágenes de alta calidad para tu proyecto.</p>
-                </div>
-            </div>
+  <section id="servicios" class="section servicios">
+  <div class="container">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="services-grid">
+      
+      <div class="service-card">
+        <img src="assets/curso.png" alt="Producción de Cursos">
+        <h3>Producción de cursos</h3>
+        <p>Diseñamos y grabamos cursos virtuales con enfoque educativo y estética profesional.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/marca.png" alt="Reportajes para ONGs">
+        <h3>Mini reportajes para ONGs</h3>
+        <p>Contamos historias de impacto social con un enfoque documental cinematográfico.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/social.png" alt="Cobertura de Eventos">
+        <h3>Cobertura de eventos</h3>
+        <p>Capturamos momentos clave de tus eventos con sensibilidad audiovisual.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/comida.png" alt="Edición Profesional">
+        <h3>Edición profesional</h3>
+        <p>Postproducción narrativa con efectos, corrección de color y ritmo cinematográfico.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="directores">
+    <div class="container">
+      <h2>Nuestros Directores</h2>
+      <div class="grid">
+        <div class="persona">
+          <img src="assets/director1.png" alt="Director 1">
+          <h3>Italo Corvetto</h3>
+          <p>Productor ejecutivo general de Hárbol Audiovisual.</p>
         </div>
-    </section>
-
-    <!-- Portafolio -->
-    <section id="portafolio" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Nuestro Trabajo</h2>
-            <div class="row" id="galeria">
-                <!-- Imágenes se cargan con JavaScript -->
-            </div>
+        <div class="persona">
+          <img src="assets/director2.png" alt="Director 2">
+          <h3>Jossue Guevara</h3>
+          <p>Director creativo y realizador audiovisual con enfoque social.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Testimonios -->
-    <section id="testimonios" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Lo que Dicen Nuestros Clientes</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <blockquote>"¡Increíble trabajo! Nuestro video superó las expectativas."</blockquote>
-                    <p>- Cliente Satisfecho</p>
-                </div>
-                <div class="col-md-6">
-                    <blockquote>"Profesionales y creativos, 100% recomendados."</blockquote>
-                    <p>- Empresa XYZ</p>
-                </div>
-            </div>
+  <section id="portafolio" class="section portafolio">
+  <div class="container">
+    <h2 class="section-title">Portafolio</h2>
+    <div class="portfolio-grid">
+      
+      <div class="portfolio-item">
+        <img src="assets/curso.png" alt="Curso Virtual">
+        <div class="overlay">
+          <h3>Curso Virtual: Fotografía</h3>
+          <a href="https://youtu.be/uXX6NH7WTkI?si=3CkgiUJUYABIPjpk" target="_blank">Ver proyecto</a>
         </div>
-    </section>
+      </div>
 
-    <!-- Contacto -->
-    <section id="contacto" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Contáctanos</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+      <div class="portfolio-item">
+        <img src="assets/social.png" alt="Reportaje ONG">
+        <div class="overlay">
+          <h3>Reportaje ONG: Educación rural</h3>
+          <a href="https://youtu.be/uXX6NH7WTkI?si=3CkgiUJUYABIPjpk" target="_blank">Ver proyecto</a>
         </div>
-    </section>
+      </div>
 
-    <!-- Pie de Página -->
-    <footer class="py-3 bg-dark text-white text-center">
-        <div class="container">
-            <p>Contenido Inteligente S.A.C. - 20211312132 | harbol.audivisual@gmail.com | +123 456 7890</p>
-            <p><a href="#" class="text-white">Instagram</a> | <a href="#" class="text-white">YouTube</a></p>
+      <div class="portfolio-item">
+        <img src="assets/corporativo.png" alt="Evento Cultural">
+        <div class="overlay">
+          <h3>Evento: Feria de cine 2024</h3>
+          <a href="https://www.youtube.com/watch?v=demo3" target="_blank">Ver proyecto</a>
         </div>
-    </footer>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    </div>
+  </div>
+</section>
+
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <form>
+        <input type="text" placeholder="Nombre completo" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hárbol Audiovisual. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
